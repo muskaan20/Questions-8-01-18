@@ -1,0 +1,46 @@
+What is GDB?
+Ans: Its says that it is GNU Debugger.
+
+What is GNU?
+Ans:is an operating system and an extensive collection of computer software.
+
+What is operating system?
+Ans:An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. 
+
+What is the purpose of GDB?
+Ans:GNU Debugger helps you in getting information about the following:
+If a core dump happened, then what statement or expression did the program crash on?
+If an error occurs while executing a function, what line of the program contains the call to that function, and what are the parameters?
+What are the values of program variables at a particular point during execution of the program?
+
+What is a debugger?
+Ans:A debugger is a program that runs other programs, allowing the user to exercise control over these programs, and to examine variables when problems arise.
+
+What are parameters?
+Ans:Parameters identify values that are passed into a function. For example, a function to add three numbers might have three parameters. A function has a name, and it can be called from other points of a program. When that happens, the information passed is called an argument. Modern programming languages typically allow functions to have several parameters.
+
+What is an argument?
+Ans: It is the value of passing parameters of any function... 
+
+/*user defined function*/ 
+sum ( a,b) 
+
+{ 
+. 
+. 
+
+} 
+
+
+
+When you are calling the function it would be 
+
+
+
+sum(5,4) 
+
+a,b are the parameters and 5,4 are the arguments.. 
+
+How does DGB debug?
+GDB allows you to run the program up to a certain point, then stop and print out the values of certain variables at that point, or step through the program one line at a time and print out the values of each variable after executing each line.
+GDB uses a simple command line interface.
